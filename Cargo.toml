@@ -1,0 +1,17 @@
+[package]
+name = "abo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gui_macro = { path = "../gui_macro" }
+serde = { version = "1.0", features = ["derive"] }
+sled = "0.34"
+serde_json = "1.0"
+eframe = "0.24"
+egui = "0.24"
+winapi = { version = "0.3", features = ["winuser"] }
+egui_extras = "0.31.1"
+chrono = { version = "0.4", features = ["serde"] }
+egui-datepicker = "0.3.0"
+epaint = "0.31.1"
